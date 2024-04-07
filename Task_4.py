@@ -2,19 +2,7 @@
 
 def main():
     def determine_chinese_zodiac(year):
-        zodiac_animals = {
-            0: "Dragon",
-            1: "Snake",
-            2: "Horse",
-            3: "Sheep",
-            4: "Monkey",
-            5: "Rooster",
-            6: "Dog",
-            7: "Pig",
-            8: "Rat",
-            9: "Ox",
-            10: "Tiger",
-            11: "Hare"}
+        zodiac_animals = {0: "Dragon",1: "Snake",2: "Horse",3: "Sheep",4: "Monkey",5: "Rooster",6: "Dog",7: "Pig",8: "Rat",9: "Ox",10: "Tiger",11: "Hare"}
         if year >= 0:
             animal_index = (year - 2000) % 12
             return zodiac_animals[animal_index]

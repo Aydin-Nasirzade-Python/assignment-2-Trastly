@@ -1,10 +1,14 @@
 #import libraries here
 
 def main():
-  '''
-  Kodunuzu buraya yazin.
-  '''
-  pass
+  x = float(input("Enter x: "))
+  y = float(input("Enter y: "))
+
+  if x> 0 and x**2 + y**2 >= 4 and x<=2 and y>0 and y<= x :
+      print("The point is in the shaded area")
+  else :
+      print("The point is not in the shaded area")
+    pass
 
 if __name__ == "__main__":
   main()

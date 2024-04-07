@@ -14,8 +14,7 @@ def main():
   while True:
       month = input("Enter name of the month [ex. June]: ")
       day = int(input("Enter the day [ex. 5]: "))
-      if month.capitalize() in ["January", "February", "March", "April", "May", "June",
-                           "July", "August", "September", "October", "November", "December"]:
+      if month.capitalize() in ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"]:
           if 1 <= day <= 31:
               season = determine_season(month.capitalize(), day)
               print(f"{month} {day} is in {season}")
